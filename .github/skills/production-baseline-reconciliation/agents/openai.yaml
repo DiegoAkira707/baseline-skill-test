@@ -1,0 +1,12 @@
+interface:
+  display_name: Production Baseline Reconciliation
+  short_description: Validate a production tag/commit and select a safe baseline
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
