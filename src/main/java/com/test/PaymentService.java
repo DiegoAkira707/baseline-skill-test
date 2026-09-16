@@ -1,9 +1,8 @@
-
 package com.test;
 
 public class PaymentService {
 
     public double calculateTotal(double amount) {
-        return amount * 1.19;
+        return amount;
     }
 }
